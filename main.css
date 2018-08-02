@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "varela";
+    src: url(VarelaRound-Regular.ttf);
+}
+
+html { height: 100%; margin: 0; padding: 0;}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A0DFFF;
+ }
+
+.grid {
+    overflow: overlay; 
+    background-color: #A0DFFF;
+    border-radius: 4px;
+    padding: 20px;
+    overflow: hidden;
+    float: left;
+}
+
+.cross {
+  background: url(cross.svg) no-repeat center center;
+  background-size: 26px 26px;
+  fill: #A63A50 !important;
+}
+
+#grid {
+    margin-left: calc(42% - 250px);
+}
+
+.block {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: #A0DFFF;
+    /*background-color: #ABF2B6;*/
+    border-radius: 4px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.small-boat-block {
+    width: 42px;
+    height: 42px;
+    margin: 1px;
+    background-color: #E16F7C;
+    border-radius: 6px;
+    box-shadow: 0px -3px 0px 0px #B54D59 inset;
+    overflow: hidden;
+}
+
+.boat-block {
+    background-color: #A0DFFF;
+    border-radius: 6px;
+    border: 2px solid white;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.boat {
+    padding: 4px;
+    display: inline-block;
+    overflow: overlay; 
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.marginDiv {
+    width: 20px;
+    height: 20px;
+    clear: both;
+}
+
+#container {
+    margin-top: 4%;
+}
+
+#sidebar {
+    background-color: #DFFFD6;
+    position: fixed;
+    width: 420px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-right: 3px solid #FFD7D5;
+    z-index: 1;
+}
+
+.black {
+    background-color: #383838;
+}
+
+.blue {
+    background-color: #383838;
+}
+
+.red {
+    background-color: #A63A50;
+}
+
+.orange {
+    background-color: #5EFC8D;
+}
+
+.white {
+    background-color: white;
+}
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
